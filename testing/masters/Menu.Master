@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="CobranzaALC.masters.Menu" MasterPageFile="~/masters/Master.Master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+  
+
+   
+          <div id="menu">
+                    <div id="nav">
+                        <ul>
+                            <li class="01">
+                                <div class="corn_izq"></div>
+                                <div class="menu01">
+                                    <div class="nombre_menu">
+                                        <h2><asp:linkButton ID="btnHome" runat="server" CausesValidation="False" 
+                                                onclick="Home_Click"><asp:Image ID="Image2" ImageUrl="~/images/home.gif" AlternateText="" runat="server" BorderWidth="0" /></asp:linkButton></h2>
+                                    </div>
+                                </div>
+                                <div class="corn_der"></div>
+				            </li>
+                            <li class="01">
+                                <div class="corn_izq"></div>
+                                <div class="menu01">
+                                    <div class="nombre_menu">
+                                         <h2><asp:LinkButton ID="LinkButton1" runat="server" 
+                                                onclick="Quienes_Click" CausesValidation="false">QUIENES SOMOS</asp:LinkButton></h2>
+                                    </div>
+                                </div>
+                                <div class="corn_der"></div>
+                            </li>
+                            <li class="02">
+                                <div class="corn_izq"></div>
+                                <div class="menu02">
+                                    <div class="nombre_menu">
+                                        <h2><asp:linkButton ID="btnServicios" runat="server" onclick="Servicios_Click" 
+                                                CausesValidation="False">SERVICIOS</asp:linkButton></h2>
+                                    </div>
+                                </div>
+                                <div class="corn_der"></div>
+                            </li>
+                            <li class="03"><div class="corn_izq"></div>
+                                <div class="menu03">
+                                    <div class="nombre_menu">
+                                        <h2><asp:linkButton ID="LinkButton2" runat="server" CausesValidation="False" 
+                                                onclick="Clientes_Click">CLIENTES</asp:linkButton></h2>
+                                    </div>
+                                </div>
+                                <div class="corn_der"></div>
+                            </li>
+                            <li class="04"><div class="corn_izq"></div>
+                                <div class="menu04">
+                                    <div class="nombre_menu">
+                                      <h2><asp:linkButton ID="LinkButton3" runat="server" 
+                                             CausesValidation="False" onclick="Contacto_Click">CONTACTO</asp:linkButton></h2>
+                                    </div>
+                                </div>
+                                <div class="corn_der"></div>
+                            </li>
+                            
+                        </ul>
+                        <div class="contenido_derecho"><B>ESTADO N° 359 Piso 13 - Santiago de Chile | Teléfonos 633 3115 - 633 3483 </B></div>
+                        
+                       
+                        	
+                    </div>
+                </div>
+
+  
+        <!-- </noscript> -->
+    </div>               
+    <div id="main_home">
+        <div id="top_main"></div>
+        <div id="contenido_main">
+            <div id="ventanas_main">
+                <div class="ventana_menu">
+                    <div class="franja_pro_top w194">
+                        <div class="corn_izq_flecha"></div>
+                        <div class="titulo_ventana">
+                            <h6>SERVICIOS</h6>
+                        </div>
+                        <div class="corn_der_menu"></div>
+                    </div>
+                    <div class="contenido_ventana_menu">
+                        <div class="interior_menu">
+                            <ul>
+                                <li id="quienes">
+                                  
+                                    <h3><asp:LinkButton runat="server" id="btnQuienes" onclick="btnQuienes_Click">Quienes Somos</asp:LinkButton></h3>
+                                </li>
+                                <li id="clientes">
+                                   
+                                    <h3><asp:LinkButton runat="server" id="btnClientes" onclick="btnClientes_Click">Clientes</asp:LinkButton></h3>
+                                </li>
+                                <li id="Servicios">
+                                  
+                                    <h3><asp:LinkButton runat="server" id="btnServicio" onclick="btnServicio_Click">Nuestros Servicios</asp:LinkButton></h3>
+                                </li>
+                                <li id="equipo">
+                                   
+                                    <h3><asp:LinkButton runat="server" id="btnEquipo" onclick="btnEquipo_Click">Equipo de Trabajo</asp:LinkButton></h3>
+                                </li>
+                                <li id="cobertura">
+                                  
+                                    <h3><asp:LinkButton runat="server" id="btnCobertura" onclick="btnCobertura_Click">Cobertura</asp:LinkButton></h3>
+                                </li>
+                                <li id="contacto">
+                                    
+                                    <h3><asp:LinkButton runat="server" id="btnContacto" onclick="btnContacto_Click">Contacto</asp:LinkButton></h3>
+                                </li>
+                                <li id="SolicitudDocumentos">
+                                    
+                                    <h3><asp:LinkButton runat="server" id="btnSolicitudDocumentos" onclick="btnDocumentos_Click">Solicitud de Documentos</asp:LinkButton></h3>
+                                </li>
+                            </ul>
+                        </div>						
+                    </div>
+                    <div class="bot_menu"></div>
+                </div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+                <div id="barra_der">
+                    <img class="banner_margen" src="../images/telefonista.jpg" width="136" 
+                        height="104" border="1" 
+                        style="border-style: inherit; border-width: thin; border-color: #CC0000;" />
+                  <%--  <img src="../images/teclado.jpg" width="136" height="104" class="banner_margen"
+                    border="1" style="border-style: inherit; border-width: thin; border-color: #CC0000;" />--%>
+                    
+                <center>Ingreso a Intranet</center>
+                Usuario : &nbsp; <br />
+                    <asp:TextBox ID="TextBox1" size="15" runat="server"></asp:TextBox>
+                    <br /> 
+                Password : &nbsp;<br />
+                <asp:TextBox ID="TextBox2" size="15" runat="server"></asp:TextBox>
+                  
+                 
+                </div>
+            </div>
+            <%--<div class="clearfix"><p></p></div>--%>
+        </div>
+        <%--<div id="bot_main"></div>--%>
+    </div>
+</asp:Content>

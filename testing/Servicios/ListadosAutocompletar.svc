@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CobranzaALC.Servicios.ListadosAutocompletar" CodeBehind="ListadosAutocompletar.svc.cs" %>

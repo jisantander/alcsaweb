@@ -1,0 +1,47 @@
+﻿.letra {
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #493f46;
+    FONT-FAMILY: "Gill Sans MT", Arial;
+}
+
+.ui-autocomplete-loading {
+    background: white url('../images/loading.gif') right center no-repeat;
+}
+
+.ui-autocomplete {
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    .ui-autocomplete.ui-widget {
+        font-family: Verdana,Arial,sans-serif;
+        font-size: 10px;
+    }
+
+#divCabecera {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#divCuerpo {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    overflow-y: auto;
+}
+
+#divPiePagina {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 25px;
+    text-align: right;
+}

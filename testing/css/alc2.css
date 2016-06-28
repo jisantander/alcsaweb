@@ -1,0 +1,191 @@
+﻿/*
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-size: 80%;
+	font-weight: bold;
+	background: #FFF;
+	}
+*/
+
+.AnulaText{ 
+	font-size: 12px; 
+	font-weight:normal; 
+	color: black; 
+	font-weight: bold;
+	background-color: #CFE4EE ;
+	border-style: none}
+
+
+.AnulaText{ 
+	font-size: 13px; 
+	font-weight:normal; 
+	color: black; 
+	font-weight: bold;
+	background-color: #CFE4EE ;
+	border-style: none}
+
+
+.GridHeader{	color: white;
+            		position: relative;
+            			top: expression(this.offsetParent.scrollTop - 2);	
+            			background-color: #4d7893;	
+            			font-weight: bold;
+            				font-size: 12px;
+           }
+           
+           
+.GridRow{	color: #000000;
+         		background-color: #FFFFFF;
+         			font-weight: normal;	
+         			font-size: 10px;
+         			}
+         			
+  .GridAlternateRow{	color: #000000;
+                    		background-color: #FFFFCC;
+                    			font-weight: normal;
+                    				font-size: 10px;
+                    				}
+    .Marco{	overflow: auto;
+           	}
+           	
+         .Marco .Grid 
+         {
+         	width: 95%;
+                       }              				
+                    				           
+
+
+/*   */
+
+
+
+.cabezabrilla
+{
+	background-color: #6CB3D8;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: left;
+}
+
+body {
+	background-color: #E8F3F9;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin: 0;
+}
+
+h2 {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+}
+	
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+img {
+    border: none;
+} 
+
+
+	
+.menu2 {
+	width: 198px;
+	margin: 1px;
+	border-style: solid solid none solid;
+	border-color: #D8D5D1;
+	border-size: 1px;
+	border-width: 1px;
+	}
+	
+.menu2 li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}	
+	
+.menu2 li a:link, .menu2 li a:visited {
+	color: #3688BA;
+	display: block;
+	background:  url(menu2.gif);
+	padding: 8px 0 0 30px;
+	}
+	
+.menu2 li a:hover {
+	color: #3688BA;
+	background:  url(menu2.gif) 0 -32px;
+	padding: 8px 0 0 32px;
+	}
+	
+.collapsePanelHeader{
+	width:79%;
+	height:20px;
+	background-image: url(../images/bg-menu-main.png);
+	background-repeat:repeat-x;
+	color:#FFF;
+	font-weight:bold;
+}
+
+.titulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 19px; COLOR: #ffffff; FONT-FAMILY: "Gill Sans MT", Arial
+}
+.pie {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: "Gill Sans MT", Arial
+}
+.textos {
+	FONT-WEIGHT: normal; FONT-SIZE: 15px; COLOR: #493f46; FONT-FAMILY: "Gill Sans MT", Arial
+}
+.textos22 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #493f46; FONT-FAMILY: "Gill Sans MT", Arial
+}
+
+.textosrojo {
+	 FONT-SIZE: 9px; COLOR: red; FONT-FAMILY: "Gill Sans MT", Arial
+}
+
+A.vinculo_texto {
+	FONT-SIZE: 11px; COLOR: #005128; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+A.vinculo_texto:hover {
+	FONT-SIZE: 11px; COLOR: #cc6633; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.vinculo {
+	FONT-SIZE: 12px; COLOR: #5a5b1c; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+A.vinculo:hover {
+	FONT-SIZE: 12px; COLOR: #cc0000; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+A.vinculo_menu_arriba {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cc3300; FONT-FAMILY: "Gill Sans MT", Arial; TEXT-DECORATION: underline
+}
+A.vinculo_menu_arriba:hover {
+	FONT-SIZE: 14px; COLOR: #003333; FONT-FAMILY: "Gill Sans MT", Arial; TEXT-DECORATION: underline
+}
+
+.boton 
+{
+
+ width:90px;
+	
+	font-size: 14px; font-style: normal;
+	height: 26px;
+}
+.boton2 
+{
+
+ width:120px;
+	
+	font-size: 14px; font-style: normal;
+	height: 26px;
+}

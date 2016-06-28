@@ -1,0 +1,33 @@
+﻿.barra-titulo {
+    height: 50px;
+    vertical-align: top;
+    background-color: #336699;
+    text-align: right;
+    padding: 2px 10px 2px 2px;
+    font: bold 19px "Gill Sans MT", Arial;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.barra-sub-titulo {
+    border: 1px solid #c8e3f9;
+    background-color: #eeeeee;
+    font: bold 15px Arial;
+    padding: 2px 10px 2px 10px;
+    text-transform: uppercase;
+}
+
+.boton {
+    background-color: #336699;
+    color: #fff;
+    font: bold 12px arial;
+    text-align: center;
+    width: 150px;
+    height: 22px;
+    border: solid 1px #a09797;
+}
+
+td {
+    font: normal 12px verdana,arial;
+    padding: 0 0 0 2px;
+}
